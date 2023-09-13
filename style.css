@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#a-nav, #w-nav, #s-nav, #h-nav{
+  color: black;
+}
+#h-nav:hover{
+  font-weight: bold;
+}
+#a-nav:hover{
+  color: #e4995b;
+  font-weight: bold;
+}
+#w-nav:hover{
+  color: #378989;
+  font-weight: bold;
+}
+#s-nav:hover{
+  color: #b74987;
+  font-weight: bold;
+}
+
+.profile{
+  border-radius: 99px;
+  max-height: 500px;
+}
+
+#about-me, #y1{
+  background-color: #e4995b;
+}
+#work-job, #y2{
+  background-color: #378989;
+}
+#schooling, #y3{
+  background-color: #b74987;
+}
+footer{
+  background-color: #e9e7e7;
+}
+
+div.j-sec{
+  background-color: #e9e7e7;
+  border-radius: 2%;
+}
+
+.row{
+  font-family: 'Newsreader', serif;
+  font-size: 1.5rem;
+}
+#subtitle{
+  font-family: 'Send Flowers', cursive;
+  font-size: 3rem;
+}
+#captions{
+  font-size: 20px;
+  z-index: 100;
+}
+
+#s-img{
+  max-height: 300px;
+  max-width: 300px;
+  vertical-align: middle;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+#wpic{
+  transition: transform .2s;
+  z-index: -10;
+}
+#wpic:hover{
+  transform: scale(1.1);
+}
+
+div.card{
+  border: 1px solid black;
+}
+#py1:hover{
+  color: #e4995b;
+}
+#py1:active{
+  font-weight: bold;
+}
+
+#py2:hover{
+  color: #378989;
+}
+#py2:active{
+  font-weight: bold;
+}
+
+#py3:hover{
+  color: #b74987;
+}
+#py3:active{
+  font-weight: bold;
+}
+
+/* WAVY */
+/* .box {
+  --size: 50px;
+  --p: 25px;
+  --R: 55.9px ;
+  
+
+  margin: 10px 0;
+  
+  
+-webkit-mask:
+  radial-gradient(var(--R) at left 50% bottom calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
+   left calc(50% - 2*var(--size)) bottom 0/calc(4*var(--size)) 51% repeat-x,
+  radial-gradient(var(--R) at left 50% bottom calc(-1*var(--p)),#0000 99%,#000 101%) 
+   left 50% bottom var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x,
+  radial-gradient(var(--R) at left 50% top calc(var(--size) + var(--p)),#000 99%,#0000 101%) 
+   left calc(50% - 2*var(--size)) top 0/calc(4*var(--size)) 51% repeat-x,
+  radial-gradient(var(--R) at left 50% top calc(-1*var(--p)),#0000 99%,#000 101%) 
+   left 50% top var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x;
+  background-color: #e4995b;   
+  border: none;
+}
+
+.box + .box {
+  --d: bottom;
+} */
